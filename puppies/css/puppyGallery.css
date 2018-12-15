@@ -1,0 +1,16 @@
+img {
+	border-radius: 50px;
+	width: 500px;
+	height: 300px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	transition:all 1s;
+}
+
+h1 {
+	text-align: center;
+}
+
+img:hover {
+	transform: scale(1.1);
+}

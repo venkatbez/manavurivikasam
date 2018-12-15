@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<meta charset="UTF-8">
+
+<title>patatap html</title>
+
+<link rel="stylesheet" href="patatap.css">
+
+<script src="paper-full.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.15/howler.js"></script>
+
+<script type="text/paperscript" canvas="myCanvas">
+
+
+var sound = new Howl({
+
+  src: ['sounds/bubbles.mp3']
+
+});
+
+var sound2 
+
+
+var circles = [];
+
+
+function onKeyDown(event) {
+
+sound.play();
+
+var maxPoint = new Point(view.size.width, view.size.height);
+
+var randomPoint = Point.random();
+
+var point = maxPoint * randomPoint;
+
+var newCircle = new Path.Circle(point, 500);
+
+newCircle.fillColor = "red";
+
+circles.push(newCircle);
+
+}
+
+
+function onFrame(event){
+
+for(var i = 0; i < circles.length; i++){
+
+circles[i].fillColor.hue += 1;
+
+circles[i].scale(.9);
+
+}
+
+}
+
+
+</script>
+
+</head>
+
+<body>
+
+<canvas id="myCanvas" resize></canvas>
+
+</body>
+
+</html>

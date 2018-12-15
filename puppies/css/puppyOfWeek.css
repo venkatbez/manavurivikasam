@@ -1,0 +1,30 @@
+h2 {
+	margin-left: 300px;
+}
+
+h1 {
+	margin-left: 560px;
+}
+
+#applaud {
+	margin-left: 400px;
+	margin-bottom: 100px;
+}
+
+body {
+	font-family: Lato;
+}
+
+img {
+	width: 500px;
+	margin-left: 370px;
+	border-radius: 50px;
+}
+
+#bob {
+	margin-left: 500px;
+}
+
+hr {
+	width: 600px;
+}

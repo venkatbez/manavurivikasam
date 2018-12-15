@@ -1,0 +1,14 @@
+img {
+	width: 500px;
+	height: 400px;
+	margin-left: 400px;
+	border-radius: 50px;
+}
+
+h1 {
+	margin-left: 500px;
+}
+
+body {
+	font-family: Lato;
+}

@@ -1,0 +1,22 @@
+input {
+	margin: 10px;
+	margin-left: 500px;
+}
+
+body {
+	font-family: Lato;
+}
+
+p {
+	margin-left: 500px;
+}
+
+h1 {
+	margin-left:500px;
+}
+
+.submit {
+	background-color: blue;
+	color: white;
+	border-radius: 50px;
+}
