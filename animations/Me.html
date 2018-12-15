@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title>Me</title>
+</head>
+
+<body>
+  <canvas id="canvas" width="800" height="200"></canvas>
+
+<script>
+// We`ll fill this in next
+var position = 0;
+
+setInterval(function () {
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+ctx.clearRect(0, 0, 900, 900);
+ctx.fillStyle = "Brown";
+ctx.fillRect(position+50, 0, 50, 50);
+ctx.fillStyle = "Brown";
+ctx.fillRect(position+70, 50, 10, 20);
+ctx.fillStyle = "Red";
+ctx.fillRect(position+25, 70, 100, 10);
+ctx.fillStyle = "Red";
+ctx.fillRect(position+45, 80, 60, 60);
+ctx.fillStyle = "Blue";
+ctx.fillRect(position+45, 140, 10, 40);
+ctx.fillStyle = "Blue";
+ctx.fillRect(position+95, 140, 10, 40);
+ctx.fillStyle = "Green";
+ctx.fillRect(position+35, 180, 20, 10);
+ctx.fillRect(position+85, 180, 20, 10);
+ctx.fillStyle = "Black";
+ctx.fillRect(position+50, 0, 50, 5);
+ctx.fillStyle = "Black";
+ctx.fillRect(position+60, 10, 5, 5);
+ctx.fillStyle = "Black";
+ctx.fillRect(position+80, 10, 5, 5);
+ctx.fillStyle = "Black";
+ctx.fillRect(position+65, 30, 20, 5);
+ctx.fillStyle = "Black";
+ctx.fillRect(position+71, 20, 5, 5);
+ctx.font = "20px Comic Sans MC";
+ctx.fillText("This is me", 100, 100);
+
+
+		position++;
+	if (position > 800) {
+		position = 0;
+	}
+}, 0);
+
+
+</script>
+</body>
+</html>

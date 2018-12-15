@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas animation</title>
+</head>
+
+<body>
+  <h1>This Is A Canvas Animtion</h1>
+  <canvas id="canvas" width="900" height="900"></canvas>
+
+<script>
+// We`ll fill this in next
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d")
+
+var position = 0;
+ctx.fillStyle = "Gold";
+
+setInterval(function () {
+ ctx.clearRect(0, 0, 900, 900);
+ctx.fillRect(position, 0, 20, 20);
+ctx.fillText("Hello", 20, 0);
+
+position++;
+if (position > 900) {
+ position = 0;
+}
+}, 0);
+
+</script>
+</body>
+</html>
