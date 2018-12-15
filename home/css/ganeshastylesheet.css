@@ -1,0 +1,54 @@
+h2 {
+    font-weight: 800;
+	font-size: 20px;	
+	
+}
+
+body {
+    background-size: cover;
+	position: relative;	
+	font-family: Lato;
+}
+
+.picture {
+	border-radius: 50%;
+	width: 20%;
+	height: 20%;	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;		
+}
+
+.ganesha {
+    width: 300px;
+    height: 300px;
+}
+
+#header {
+	margin-top: 100px;
+	margin-bottom: 10px;	
+    text-align: center; 
+}
+
+#test {
+	width: auto;
+    height: 300px;      
+}
+
+#main {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+span {
+	border: 1px;
+	color: red;
+	font-weight: 800;
+	font-size: 16px;
+	border-top-style: solid;
+
+}
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}

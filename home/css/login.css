@@ -1,0 +1,16 @@
+input {
+	margin-bottom: 20px;
+	margin-left: 500px;
+}
+
+button {
+	margin-left: 550px;
+	border-radius: 50px;
+	background-color: blue;
+	color: white;
+}
+
+h1 {
+	font-family: Lato;
+	margin-left: 400px;
+}
