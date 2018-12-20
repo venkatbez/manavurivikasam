@@ -1,0 +1,27 @@
+.img {
+	width: 300px;
+	margin-left: 20px;
+}
+
+img {
+	width: 300px;
+	height: 200px;
+    transition:all 1s;
+}
+
+h1 {
+	margin-left: 400px;
+	font-family: Lato;
+}
+
+.sRow {
+	margin-top: 20px;
+}
+
+#fPic {
+	margin-left: 20px;
+}
+
+img:hover {
+	transform: scale(1.3);
+}

@@ -1,0 +1,42 @@
+.header {
+	margin-left: 500px;	
+	margin-top: 300px;
+}
+
+body {
+	background-image: url(https://wallpapercave.com/wp/c0HjQeE.jpg);
+	font-family: Lato;
+}
+
+.line {
+   width: 500px;
+   margin-left: -150px;
+   margin-right: 600px;
+}
+
+button{
+   border-radius: 50px;
+   background-color: blue;
+   color: green;
+   height: 50px;
+}
+
+#link {
+   color: white;
+}
+
+#link:hover {
+   text-decoration: none;
+}
+
+img {
+	height: 200px;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: -70px;
+	border-radius: 50px;
+}
+
+p {
+	color: white;
+}

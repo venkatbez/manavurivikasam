@@ -1,0 +1,27 @@
+#content {
+	margin-left: 400px;
+	margin-top: 100px;	
+}
+
+#header {
+	margin-left: 150px;
+}
+
+body {
+	font-family: Lato;
+}
+
+#para {
+	margin-right: 300px;
+	line-height: 30px;
+}
+
+img {
+	height: 200px;
+	margin-left: 150px;
+}
+
+hr {
+	width: 400px;
+	margin-right: 500px;	
+}
