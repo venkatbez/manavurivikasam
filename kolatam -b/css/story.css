@@ -1,0 +1,21 @@
+.header {
+	margin-left: 150px;
+	margin-top: 80px;
+}
+
+body {
+	font-family: Lato;
+}
+
+.lead {
+	margin-right: 300px;
+	line-height: 30px;
+	size: ;
+}
+
+
+
+hr {
+	width: 400px;
+	margin-left: -100px;		
+}
